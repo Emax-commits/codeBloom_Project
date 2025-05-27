@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyword" content="UNKNOWN">
+    <meta name="description" content=" UNKNOWN">
+    <meta name="Author" content="Code by Emax!">
+    <meta http-equiv="refresh" content="500">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title>multi-step-form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/images/favicon-32x32.png" sizes="32x32" type="image/x-icon">
+</head>
+<body>
+    <section>
+        
+        <div class="forms-content">
+            <!--form sideBar-->
+            <div class="forms-bar">
+                <img src="assets/images/bg-sidebar-desktop.svg" alt="">
+                <div class="active">
+                    <div class="active-box">
+                        <span class="s-circle">1</span>
+                        <div class="active-text">
+                            <p>STEP 1</p>
+                            <h3>YOUR INFO</h3>
+                        </div>
+                    </div>
+                    <div class="active-box">
+                        <span>2</span>
+                        <div class="active-text">
+                            <p>STEP 2</p>
+                            <h3>SELECT PLAN</h3>
+                        </div>
+                    </div>
+                    <div class="active-box">
+                        <span>3</span>
+                        <div class="active-text">
+                            <p>STEP 3</p>
+                            <h3>ADDS-ONS</h3>
+                        </div>
+                    </div>
+                    <div class="active-box">
+                        <span>4</span>
+                        <div class="active-text">
+                            <p>STEP 4</p>
+                            <h3>SUMMARY</h3>
+                        </div>
+                    </div>
+ 
+                </div>
+            </div>
+                    <!--form details-->
+            <div class="forms-details">
+                 <!--form details 1-->
+                
+                <form action="" method="get" class="details" id="form">
+                    <div class="details-text">
+                        <h2>Personal info</h2>
+                        <p>Please provide your name, email address, and phone number.</p>
+                    </div>
+                    
+                            <div class="details-info">
+                                <div class="text">
+                                    <label for="username">Name</label>
+                                    <p id="e-msg1"></p>
+                                </div>
+                                <input id="name" name="username" type="text" placeholder="Stephen King">
+                            </div>
+                            <div class="details-info">
+                                <div class="text">
+                                    <label for="Email">Email Address</label>
+                                    <p id="e-msg2"></p>
+                                </div>
+                                <input id="email" name="Email" type="email" placeholder="stephenking@gmail.com">
+                            </div>
+                            <div class="details-info">
+                                <div class="text">
+                                <label for="Num">Phone Number</label>
+                                <p id="e-msg3"></p>
+                                </div>
+                                <input id="tel" name="Number" type="tel"  placeholder="e.g. +234 80 1234 5678">
+                            </div>
+                            
+                            <div class="btn  btn-one">
+                                <button id="btn1" class=" btn1" type="submit">Next step</button>
+                            </div>
+                </form>                          
+                
+                
+
+
+            </div>
+            
+             
+        </div>
+    </section>
+
+    <script src="multi-form.js"></script>
+</body>
+</html>

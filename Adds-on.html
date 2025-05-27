@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyword" content="UNKNOWN">
+    <meta name="description" content=" UNKNOWN">
+    <meta name="Author" content="Code by Emax!">
+    <meta http-equiv="refresh" content="500">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title>multi-step-form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/images/favicon-32x32.png" sizes="32x32" type="image/x-icon">
+</head>
+<body>
+    <section class="forms" id="forms">
+        
+        <div class="forms-content">
+            <!--form sideBar-->
+            <div class="forms-bar">
+                <img src="assets/images/bg-sidebar-desktop.svg" alt="">
+                <div class="active">
+                    <div class="active-box">
+                        <span>1</span>
+                        <div class="active-text">
+                            <p>STEP 1</p>
+                            <h3>YOUR INFO</h3>
+                        </div>
+                    </div>
+                    <div class="active-box">
+                        <span>2</span>
+                        <div class="active-text">
+                            <p>STEP 2</p>
+                            <h3>SELECT PLAN</h3>
+                        </div>
+                    </div>
+                    <div class="active-box">
+                        <span class="s-circle">3</span>
+                        <div class="active-text">
+                            <p>STEP 3</p>
+                            <h3>ADDS-ONS</h3>
+                        </div>
+                    </div>
+                    <div class="active-box">
+                        <span>4</span>
+                        <div class="active-text">
+                            <p>STEP 4</p>
+                            <h3>SUMMARY</h3>
+                        </div>
+                    </div>
+ 
+                </div>
+            </div>
+                    <!--form details-->
+            <div class="forms-details">
+               
+                 <!--form details 3-->
+                <form action="" method="get" class="details" id="form">
+                    
+                    <div class="details-text">
+                        <h2>Pick add-ons</h2>
+                        <p>Add-ons help enhance your gaming experience.</p>
+                    </div>
+
+                        <div class="details-pick">
+
+                    <div class="details-select" id="details-select">
+                        <input type="checkbox" name="pick-add" id="pick-list">
+                        <div class="text">
+                            <label for="pick-list">Online service</label>
+                            <p>Access to multiplayer games</p>
+                        </div>
+                        <p>+$1/mo</p>
+                    </div>
+
+                    <div class="details-select" id="details-select">
+                        <input type="checkbox" name="pick-add" id="pick-list1">
+                        <div class="text">
+                            <label for="pick-list1">Larger storages</label>
+                            <p>Extra 1TB of cloud save</p>
+                        </div>
+                        <p>+$2/mo</p>
+                    </div>
+
+                    <div class="details-select" id="details-select">
+                        <input type="checkbox" name="pick-add" id="pick-list2">
+                        <div class="text">
+                            <label for="pick-list2">Customizable Profile</label>
+                            <p>Custom theme on your profile</p>
+                        </div>
+                        <p>+$2/mo</p>
+                    </div>
+                    
+
+                        </div>
+                    
+                        <div class="btn">
+                        <button id="back" class="go-back" >Go back</button>
+                        <button id="next" >Next step</button>
+                        </div>
+                    
+                </form>
+                 <!--form details 1-->
+
+
+            </div>
+            
+             
+        </div>
+    </section>
+    <script src="multi-forms2.js"></script>
+</body>
+</html>

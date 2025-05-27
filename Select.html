@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyword" content="UNKNOWN">
+    <meta name="description" content=" UNKNOWN">
+    <meta name="Author" content="Code by Emax!">
+    <meta http-equiv="refresh" content="500">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title>multi-step-form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/images/favicon-32x32.png" sizes="32x32" type="image/x-icon">
+</head>
+<body>
+    <section class="forms" id="forms">
+        
+        <div class="forms-content">
+            <!--form sideBar-->
+            <div class="forms-bar">
+                <img src="assets/images/bg-sidebar-desktop.svg" alt="">
+                <div class="active">
+                    <div class="active-box">
+                        <span>1</span>
+                        <div class="active-text">
+                            <p>STEP 1</p>
+                            <h3>YOUR INFO</h3>
+                        </div>
+                    </div>
+                    <div class="active-box">
+                        <span class="s-circle">2</span>
+                        <div class="active-text">
+                            <p>STEP 2</p>
+                            <h3>SELECT PLAN</h3>
+                        </div>
+                    </div>
+                    <div class="active-box">
+                        <span>3</span>
+                        <div class="active-text">
+                            <p>STEP 3</p>
+                            <h3>ADDS-ONS</h3>
+                        </div>
+                    </div>
+                    <div class="active-box">
+                        <span>4</span>
+                        <div class="active-text">
+                            <p>STEP 4</p>
+                            <h3>SUMMARY</h3>
+                        </div>
+                    </div>
+ 
+                </div>
+            </div>
+                    <!--form details-->
+            <div class="forms-details">
+               
+                
+                 <!--form details Summary-->
+                  <form action="" method="get" class="details second" id="form">
+                    <div class="details-text">
+                        <h2>Select your plan</h2>
+                        <p>You have the option of monthly or yearly billing</p>
+                    </div>
+                    
+                    <div class="details-segment">
+                                <div class="details-option" id="details-option">
+                                    <img src="assets/images/icon-arcade.svg" alt="icon-arcade">
+                                    <div class="text">
+                                        <h4>Arcade</h4>
+                                        <p class="yearly-price price1">$9/mo</p>
+                                        <p class="yearly-offer"></p>
+                                    </div>
+                                </div>
+                                <div class="details-option" id="details-option">
+                                    <img src="assets/images/icon-advanced.svg" alt="icon-arcade">
+                                    <div class="text">
+                                        <h4>Advanced</h4>
+                                        <p class="yearly-price price2">$12/mo</p>
+                                        <p class="yearly-offer"></p>
+                                    </div>
+                                </div>
+                                <div class="details-option" id="details-option">
+                                    <img src="assets/images/icon-pro.svg" alt="icon-arcade">
+                                    <div class="text">
+                                        <h4>Pro</h4>
+                                        <p class="yearly-price price3">$15/mo</p>
+                                        <p class="yearly-offer"></p>
+                                    </div>
+                                </div>
+                    </div>
+                    <div class="switch-terms">
+                                <p class="optionA" id="optionA">Monthly</p>
+                                <input type="checkbox" id="toggle-terms">
+                                <label for="toggle-terms" id="press" onclick="press()"></label>
+                                <p class="optionB">Yearly</p>
+                    </div>
+
+                    <div class="btn">
+                                <button id="back" class="go-back" >Go back</button>
+                                <button id="next" >Next step</button>
+                    </div>
+                
+                 <!--form details 1-->
+                </form>
+                
+                 <!--form details 1-->
+
+
+            </div>
+            
+             
+        </div>
+    </section>
+    <script src="multi-forms1.js"></script>
+</body>
+</html>
