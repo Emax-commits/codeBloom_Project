@@ -479,8 +479,9 @@ button:hover{
    }
    .details-segment{
     margin: 0 auto;
-    display: block;
-    flex-direction: column-reverse;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
    }
    .details-segment .details-option{
     display: flex;
