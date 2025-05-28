@@ -31,7 +31,7 @@ press.addEventListener('click', () =>{
 previous.addEventListener("click", (e) => {
     e.preventDefault()
     console.log(previous)
-     window.location.assign("inde.html");
+     window.location.assign("index.html");
 })
 
 next_page.addEventListener("click", (e) => {
