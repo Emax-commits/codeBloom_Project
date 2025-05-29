@@ -27,6 +27,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
 .forms-content{
@@ -499,5 +500,15 @@ button:hover{
    }
    .forms-bar .active{
         left: 0;
+    }
+      section .attribution{
+        padding: 5px;
+        font-size: 11.3px;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        
     }
 }
